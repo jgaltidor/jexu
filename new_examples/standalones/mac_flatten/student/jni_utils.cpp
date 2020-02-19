@@ -79,11 +79,10 @@ JavaVM* JNU_GetExistingJavaVM(JNIEnv **penv)
 
 JavaVM* JNU_GetJavaVM(JNIEnv **penv)
 {
-    JNIEnv *env;
-    JavaVM* jvm = JNU_GetExistingJavaVM(&env);
+    JavaVM* jvm = JNU_GetExistingJavaVM(penv);
     if (jvm == NULL)
     {
-        jvm = JNU_CreateJavaVM(&env);
+        jvm = JNU_CreateJavaVM(penv);
     }
     return jvm;
 }
