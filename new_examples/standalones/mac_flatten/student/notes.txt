@@ -1,0 +1,11 @@
+
+no longer want to use an archive library (jexu.a)
+
+no longer want to throw exceptions from Java to C++
+
+fixing any code problems
+
+remove unused declaration "jclass exceptionClass;"
+
+no longer rethrowing Java exceptions to C++
+
