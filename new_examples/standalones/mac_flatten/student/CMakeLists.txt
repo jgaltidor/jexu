@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(student)
+find_package(JNI REQUIRED)
+include_directories(${JNI_INCLUDE_DIRS})
+set(SOURCE_FILES jni_utils.cpp Student.cpp main.cpp)
+add_executable(mainapp ${SOURCE_FILES})
+target_link_libraries(mainapp ${JNI_LIBRARIES})
