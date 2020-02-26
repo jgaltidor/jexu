@@ -66,7 +66,7 @@ JavaVM* JNU_GetExistingJavaVM(JNIEnv **penv)
         return NULL;
     }
 
-    result = jvm->GetEnv(reinterpret_cast<void **>(penv), JNI_VERSION_1_2);
+    result = jvm->GetEnv(reinterpret_cast<void **>(penv), JNI_VERSION_1_6);
     if (result != JNI_OK)
     {
         fprintf(stderr, "Can't GetEnv, rc=%d\n", result);
