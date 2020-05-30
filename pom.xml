@@ -10,7 +10,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>jexu.MainApp</mainClass>
+              <mainClass>jexu.ui.MainApp</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
