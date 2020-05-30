@@ -3,7 +3,4 @@
   <groupId>jexu</groupId>
   <artifactId>jexu</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <build>
-    <sourceDirectory>src</sourceDirectory>
-  </build>
 </project>
