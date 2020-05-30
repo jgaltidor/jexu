@@ -1,0 +1,1 @@
+java -jar target/jexu-0.0.1-SNAPSHOT-jar-with-dependencies.jar $*
